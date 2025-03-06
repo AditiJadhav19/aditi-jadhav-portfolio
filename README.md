@@ -54,7 +54,7 @@ js/
 
 1. Clone the repository:
     ```sh
-    git clone <repository-url>
+    git clone https://github.com/AditiJadhav19/aditi-jadhav-portfolio.git
     ```
 
 2. Open `index.html` in your web browser to view the portfolio.
