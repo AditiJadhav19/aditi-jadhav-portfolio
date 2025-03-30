@@ -279,18 +279,29 @@
             </button>
           </div>
 
+          <!-- 5 -->
+          <div class="services-box">
+            <i class='bx bxs-game'></i>
+            <h3>Tic Tac Toe Game</h3>
+            <p>"Tic Tac Toe Game is a simple web-based game where two players take turns marking spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game."</p>
+            <button type="button" class="btn" data-toggle="modal" data-target="#ticTacToeModal">
+              Read More
+            </button>
+          </div>
+
       </div>
   </section>
 
     <!-- contact section design -->
     <section class="contact" id="contact">
       <h2 class="heading">Contact <span>Me!</span></h2>
-
-      <form action="#">
+      <form id="contact-form">
         <div class="input-box">
-          <h3>Mobile Number: <a href="tel:9307337038">9307337038</a></h3>
-          <h3>Email: <a href="mailto:jadhavaditi802@gmail.com">jadhavaditi802@gmail.com</a></h3>
+          <input type="text" name="user_name" placeholder="Your Name" required />
+          <input type="email" name="user_email" placeholder="Your Email" required />
         </div>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
       </form>
     </section>
 
@@ -374,6 +385,8 @@
               <li>Detailed Booking Information: Provides users with detailed booking information in a downloadable PDF format.</li><br>
               <li>User-Friendly Interface: Designed to be easy to use, facilitating efficient bus seat booking.</li>
             </ul>
+
+            <a href="https://github.com/AditiJadhav19/bus-reservation-system" style="background-color: #ffd685; color: rgb(0, 0, 0); border: none; padding: 10px 20px; border-radius: 5px;">View on GitHub</a>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -412,6 +425,8 @@
               <li>User-Friendly Interface: Designed to be easy to use for both teachers and students.</li><br>
               <li>Real-Time Updates: Provides real-time updates on student results, helping educators and students keep track of academic progress.</li>
             </ul>
+
+            <a href="https://github.com/AditiJadhav19/student-result-management-system" style="background-color: #ffd685; color: rgb(0, 0, 0); border: none; padding: 10px 20px; border-radius: 5px;">View on GitHub</a>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -450,6 +465,8 @@
               <li>Billing System: Automatically generates and prints customer bills in PDF format.</li><br>
               <li>User-Friendly Interface: Easy-to-navigate design for quick access to data.</li>
             </ul>
+
+            <a href="https://github.com/AditiJadhav19/mobile-shop-management" style="background-color: #ffd685; color: rgb(0, 0, 0); border: none; padding: 10px 20px; border-radius: 5px;">View on GitHub</a>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -485,6 +502,44 @@
               <li>Progress Tracking: Dashboards to monitor learning milestones and achievements.</li><br>
               <li>Parent and Educator Portal: Tools for adults to track progress and support children’s learning journey.</li>
             </ul>
+
+            <a href="https://github.com/AditiJadhav19/gamield-platform-for-childrens-right" style="background-color: #ffd685; color: rgb(0, 0, 0); border: none; padding: 10px 20px; border-radius: 5px;">View on GitHub</a>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tic Tac Toe Modal -->
+    <div class="modal fade" id="ticTacToeModal" tabindex="-1" role="dialog" aria-labelledby="ticTacToeModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title" id="ticTacToeModalLabel">Tic Tac Toe Game</h2>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <h5>Description</h5>
+            <p>Tic Tac Toe Game is a simple web-based game where two players take turns marking spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.</p>
+    
+            <h5>Technologies Used</h5>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+    
+            <h5>Features</h5>
+            <ul>
+              <li>Interactive Gameplay: Allows two players to play the game interactively.</li><br>
+              <li>Dynamic Updates: Updates the game state dynamically as players take their turns.</li><br>
+              <li>Winning Detection: Detects and highlights the winning combination.</li><br>
+              <li>Game Reset: Provides a button to start a new game.</li>
+            </ul>
+    
+            <a href="https://github.com/AditiJadhav19/tic-tac-toe-game" style="background-color: #ffd685; color: rgb(0, 0, 0); border: none; padding: 10px 20px; border-radius: 5px;">View on GitHub</a>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -499,7 +554,8 @@
     <!-- swiper js -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
-    <!-- custom js -->
+    <!-- email js and custom -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script src="/js/index.js"></script>
   </body>
 </html>
